@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros | Trio Venecia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="config.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <link rel="icon" href="Media/Recurso 1.png">
+</head>
+
+<body>
+    <header class="header_inicio p-3 d-flex align-items-center">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <a href="Inicio.html"><img src="Media/Recurso 1.png" alt="Logo" class="img_header"></a>
+                <h1 class="title_header ">Trio Venecia</h1>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="Inicio.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link text-white active">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="Galeria.html">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+    <main class="container my-5">
+        <section class="mb-5"data-aos="fade-up">
+            <h2>Quienes somos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sint enim tenetur quisquam quam
+                reiciendis itaque consequuntur eaque? Obcaecati perferendis atque nobis aliquam aperiam perspiciatis
+                ullam! Voluptatibus ipsam adipisci sint.</p>
+        </section>
+        <section class="mb-5" data-aos="fade-up">
+            <h2>Miembros del Grupo</h2>
+            <div class="row py-5">
+                <div class="col-md-4 text-center">
+                    <div class="foto-circular" style="background-image: url('Media/JuanJose.jpg');"></div>
+                    <h5>Juan Jose Cruz</h5>
+                    <p>Vocalista Principal y Guitarra Acompañante</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="foto-circular" style="background-image: url('Media/Ivan\ Rincon.jpg');"></div>
+                  
+                    <h5>Iván Rincón</h5>
+                    <p>Requinto y Tercera Voz</p>
+                </div>
+                <div class="col-md-4 text-center">
+                   <div class="foto-circular" style="background-image: url('Media/Leonardo\ Gonzalez.jpg');"></div>
+                        
+                    <h5>Leonardo Gonzalez</h5>
+                    <p>Multipercusión y Segunda Voz </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 data-aos="fade-up">Servicios que Ofrecemos</h2>
+            <div class="row py-5">
+                <div class="col-md-3 text-center mb-4" data-aos="fade-up">
+                    <div class="p-3 border rounded shadow-sm h-100">
+
+                        <i class="bi bi-mic-fill fs-1 text-warning mb-3"></i>
+                        <h4>Presentaciones en vivo</h4>
+                        <p>Animamos eventos sociales, bodas, fiestas y celebraciones con nuestro repertorio de boleros y
+                            musica colombiana, y claro, con canciones que el cliente nos pida.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4"data-aos="fade-up">
+                    <div class="p-3 border rounded shadow-sm h-100">
+                        <i class="bi bi-briefcase-fill fs-1 text-warning mb-3"></i>
+
+                        <h4>Eventos corporativos</h4>
+                        <p>Ofrecemos música ambiental y shows personalizados para empresas y eventos de negocios.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4"data-aos="fade-up">
+                    <div class="p-3 border rounded shadow-sm h-100">
+                        <i class="bi bi-headphones fs-1 text-warning mb-3"></i>
+
+                        <h4>Grabaciones profesionales</h4>
+
+                        <p>Producción y grabación de canciones para proyectos personales o comerciales.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center mb-4"data-aos="fade-up">
+                    <div class="p-3 border rounded shadow-sm h-100">
+                        <i class="bi bi-camera-video-fill fs-1 text-warning mb-3"></i>
+
+                        <h4>Serenatas Virtuales</h4>
+                        <p>Si la distancia no nos lo permite, tambien tenemos serenatas virtuales para todo tipo de
+                            evento con la mejor calidad, a un buen precio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="text-center my-2">
+            <a href="Contacto.html" class="btn btn-warning btn-lg">Cotiza tu evento</a>
+        </div>
+    </main>
+    <footer class="bg-dark text-white text-center py-4">
+        <p class="mb-0">&copy; <span id="year"></span> Trío Venecia. Todos los derechos reservados.</p>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800, // Duración de la animación en ms
+    once: true,    // Animar sólo una vez al hacer scroll
+  });
+</script>
+
+</body>
+
+</html>
