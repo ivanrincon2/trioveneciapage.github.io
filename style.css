@@ -57,3 +57,6 @@ li {
   background-color: #e6ac00; /* un dorado más claro */
   transform: scale(1.05); /* un pequeño zoom */
 }
+#mensaje {
+  margin-bottom: 2rem; /* espacio debajo del textarea */
+}
